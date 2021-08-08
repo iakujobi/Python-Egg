@@ -23,5 +23,5 @@ python setup.py bdist_egg
 ```
 
 7. This will generate a lot of output, but when it’s done you’ll see that you have three new folders: build, dist, and mymath.egg-info.
-8. The only one we care about is the dist folder in which you fill find your egg file, mymath-0.1-py2.6.egg.
+8. The only one we care about is the `dist folder` in which you fill find your egg file, `mymath-0.1-py2.6.egg`
 9. Note that on my machine, it picked up my default Python, which was 3.9 and created the egg against that version of Python. The egg file itself is basically a zip file. If you change the extension to “zip”, you can look inside it and see that it has two folders: mymath and EGG-INFO.
